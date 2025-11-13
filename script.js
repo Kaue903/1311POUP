@@ -4,6 +4,7 @@ CÓDIGO JAVASCRIPT - SIMULADOR DE BANCO DIDÁTICO
 // Variáveis principais que armazenam a conta e suas movimentações
 let conta = null;
 let movimentacoes = [];
+let ultimaDataDeposito = null; // 🔹 guarda a data do último depósito
 
 /* ------------------------------------------------------------
 Função auxiliar que gera a data/hora atual formatada
