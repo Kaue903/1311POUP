@@ -1,0 +1,96 @@
+/* ======== ESTILOS CSS (Corrigido) ======== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d1d1d1;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #63625f;
+  color: white;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+main {
+  max-width: 700px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+h2 {
+  color: #97897b;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select, button {
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Adicionado para corrigir a largura */
+}
+
+button {
+  background-color: #97897b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #72706e;
+}
+
+button:disabled {
+  background-color: #97897b;
+  cursor: not-allowed;
+}
+
+.resultado {
+  background: rgb(208, 208, 208);
+  border: 1px solid #97897b;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+#dataHora {
+  background: #525252;
+  font-weight: bold;
+  color: #f0f409;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-top: 15px;
+  position: absolute;
+  right: 16px;
+  top: 0; /* Adicionado para alinhar com o topo */
+  font-size: 20px;
+  border-radius: 12px;
+  z-index: 10;
+}
+
+#logo {
+  height: 76px;
+  width: auto;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
